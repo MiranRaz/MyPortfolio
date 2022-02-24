@@ -5,7 +5,6 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   margin: 100px;
   max-width: 400rem;
-  background: #000;
   height: 80px;
   display: flex;
   justify-content: space-between;
