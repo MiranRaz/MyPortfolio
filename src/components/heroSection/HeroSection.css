@@ -6,8 +6,14 @@ video {
   z-index: -1;
 }
 
+.logo{
+  object-fit: cover;
+  width: 400px;
+  height: 300px;
+  position: fixed;
+  z-index: -1;}
+
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;

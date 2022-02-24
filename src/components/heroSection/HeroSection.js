@@ -7,8 +7,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src={video1} autoPlay loop muted type="video/mp4" />
-      <h1>MR</h1>
-      {/* <img className="logo" src={mainLogo}></img> */}
+      <img className="logo" src={mainLogo} />
     </div>
   );
 }
