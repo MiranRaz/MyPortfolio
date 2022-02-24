@@ -1,15 +1,13 @@
 import "./App.css";
-import Navbar from "./components/navbar";
-import MyLogo from "./img/logo2.png";
+import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter } from "react-router-dom";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      {/* <div class="pic">
-        <img src={MyLogo} alt="My Logo" />
-      </div> */}
       <Navbar />
+      <Home />
     </BrowserRouter>
   );
 }
