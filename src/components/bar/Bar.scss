@@ -12,7 +12,8 @@
 }
 
 .sidebar {
-  background-color: #3b5065;
+  //background-color: #3b5065;
+  background-color: #c1a87a;
   height: 55px;
   width: 600px;
   top: calc(100vh - 70px);
@@ -62,7 +63,8 @@
 }
 
 .sidebar ul li a .icon :hover {
-  color: #e8d4af;
+  //color: #e8d4af;
+  color: #3b5065;
 }
 
 // .sidebar ul li.active a .icon {
