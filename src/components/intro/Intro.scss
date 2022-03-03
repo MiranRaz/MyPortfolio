@@ -2,29 +2,76 @@
   //background-color: #f4f0cb;
   background-color: #3b5065;
   display: flex;
+  background-image: url("../../../public/assets/LIJEVO.svg");
 
   .left {
-    flex: 0.5;
+    flex: 0.7;
     overflow: hidden;
     display: flex;
+    width: 100%;
+    float: right;
 
     .imageContainer {
       width: 100%;
       height: 100%;
-      justify-content: center;
-      align-items: center;
+
       img {
-        width: 100%;
-        margin-top: 233px;
+        width: 55%;
+        margin-top: 321px;
+        margin-left: 333px;
       }
     }
   }
   .right {
-    flex: 0.5;
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .wrapper {
       width: 100%;
       height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .icon {
+      font-size: 99px;
+    }
+
+    h1 {
+      font-size: 90px;
+      margin: 10px 0px;
+      color: whitesmoke;
+    }
+
+    h2 {
+      font-size: 33px;
+      color: whitesmoke;
+    }
+
+    h3 {
+      font-size: 45px;
+      color: #c1a87a;
+    
+    }
+
+    a {
+      position: absolute;
+      bottom: 99px;
+
+      .icon {
+        animation: arrowDown 3s infinite;
+        opacity: 0.9;
+        color: #c1a87a;
+      }
+      @keyframes arrowDown {
+        100% {
+          opacity: 0;
+        }
+      }
     }
   }
 }
