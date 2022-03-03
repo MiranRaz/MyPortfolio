@@ -1,22 +1,20 @@
 import "./App.scss";
-import React, { useState } from "react";
+import React from "react";
 
-import Topbar from "./components/topbar/Topbar";
+import Bar from "./components/bar/Bar";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
+import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Bar />
       <div className="sections">
         <Intro />
-        <Portfolio />
         <Works />
+        <Skills />
         <Contact />
       </div>
     </div>
