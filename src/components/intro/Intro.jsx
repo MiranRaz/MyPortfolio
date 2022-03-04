@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Intro.scss";
 import MRLOGO from "../../img/MRLOGO.png";
+import { init } from "ityped";
 
 export default function Intro() {
+  const textRef = useRef();
+
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: false,
+      strings: [" Engineer", " Developer", " Designer"],
+    });
+  }, []);
+
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -14,7 +24,9 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h1>Miran Ražnatović</h1>
-          <h3>Software Engineer</h3>
+          <h3>
+            Software <span className="text" ref={textRef}>Engineer</span>
+          </h3>
         </div>
 
         <a href="#works">

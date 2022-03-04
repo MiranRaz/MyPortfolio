@@ -73,10 +73,12 @@ export default function Works() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
-            <img src={d.img} />
-            <h3>{d.title}</h3>
-          </div>
+          <a href={d.link} target="_blank">
+            <div className="item">
+              <img src={d.img} />
+              <h3>{d.title}</h3>
+            </div>
+          </a>
         ))}
       </div>
     </div>

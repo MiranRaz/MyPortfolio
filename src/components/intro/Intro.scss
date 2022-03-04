@@ -54,8 +54,12 @@
 
     h3 {
       font-size: 45px;
-      color: #c1a87a;
-    
+      color: whitesmoke;
+
+      .text {
+        font-size: inherit;
+        color: #c1a87a;
+      }
     }
 
     a {
