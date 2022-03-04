@@ -1,0 +1,12 @@
+.workslist {
+  font-size: 41px;
+  margin-right: 89px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:active {
+    background-color: whitesmoke;
+    color: #3b5065;
+  }
+}
