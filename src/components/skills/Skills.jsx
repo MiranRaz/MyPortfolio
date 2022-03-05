@@ -7,6 +7,7 @@ import BOOTSTRAP from "../../img/logos/BOOTSTRAP.png";
 import DOTNET from "../../img/logos/DOTNET.png";
 import GIT from "../../img/logos/GIT.png";
 import MSSQL from "../../img/logos/MSSQL.png";
+import PHTSHP from "../../img/logos/PHTSHP.png";
 
 export default function Skills() {
   return (
@@ -37,6 +38,9 @@ export default function Skills() {
           </li>
           <li>
             <img src={MSSQL} alt="MSSQL" />
+          </li>
+          <li>
+            <img src={PHTSHP} alt="Photoshop" />
           </li>
         </ul>
       </div>
