@@ -1,12 +1,11 @@
 import NF from "../img/NF.png";
 import MACBETH from "../img/MACBETH.jpg";
 import LIBERTY from "../img/LIBERTY.png";
-import LACASA from "../img/LACASA.svg";
+import LACASA from "../img/LACASA.png";
 import TTT from "../img/TTT.png";
 import BLOCKCHAIN from "../img/BLOCKCHAIN.jpg";
 import GITHUB from "../img/GITHUB.png";
 import LINKEDIN from "../img/LINKEDIN.png";
-import IG from "../img/IG.png";
 
 export const myWebSites = [
   {
@@ -24,11 +23,8 @@ export const myWebSites = [
     title: "LIBERTY",
     img: LIBERTY,
   },
-];
-
-export const myMobApps = [
   {
-    id: 1,
+    id: 4,
     title: "LA CASA",
     img: LACASA,
     link: "https://lacasa20220220114850.azurewebsites.net/",
@@ -65,10 +61,5 @@ export const myContacts = [
     title: "GITHUB",
     img: GITHUB,
     link: "https://github.com/MiranRaz",
-  },
-  {
-    id: 3,
-    title: "INSTAGRAM",
-    img: IG,
   },
 ];

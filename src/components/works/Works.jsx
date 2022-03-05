@@ -4,7 +4,6 @@ import WorksList from "../workslist/WorksList";
 
 import {
   myWebSites,
-  myMobApps,
   myGames,
   myResearch,
   myContacts,
@@ -17,10 +16,6 @@ export default function Works() {
     {
       id: "webpages",
       title: "Webpages",
-    },
-    {
-      id: "apps",
-      title: "Apps",
     },
     {
       id: "games",
@@ -41,9 +36,6 @@ export default function Works() {
       case "webpages":
         setData(myWebSites);
         break;
-      case "apps":
-        setData(myMobApps);
-        break;
       case "games":
         setData(myGames);
         break;
@@ -60,7 +52,7 @@ export default function Works() {
 
   return (
     <div className="works" id="works">
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
       <ul>
         {list.map((item) => (
           <WorksList
