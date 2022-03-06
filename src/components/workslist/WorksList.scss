@@ -1,9 +1,18 @@
+@import "../../global.scss";
 .workslist {
   font-size: 41px;
   margin-right: 89px;
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
+  overflow: visible;
+
+  @include mobile{
+    font-size: 17px;
+    margin-right: 10px;
+    padding: 0px;
+  }
+  
 
   &:active {
     background-color: whitesmoke;
