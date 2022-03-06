@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.0e3dfe68.css",
-    "main.js": "/MyPortfolio/static/js/main.9c8df846.js",
+    "main.css": "/MyPortfolio/static/css/main.0016a2e5.css",
+    "main.js": "/MyPortfolio/static/js/main.2ac62155.js",
     "static/media/MRLOGO.png": "/MyPortfolio/static/media/MRLOGO.91ce92ad0274f0d6ecf7.png",
     "static/media/ARULA.png": "/MyPortfolio/static/media/ARULA.bb7eb3017fe020f09404.png",
     "static/media/NF.png": "/MyPortfolio/static/media/NF.37e926ffd2445f92fc49.png",
@@ -19,11 +19,11 @@
     "static/media/BOOTSTRAP.png": "/MyPortfolio/static/media/BOOTSTRAP.d255236361277c28aedf.png",
     "static/media/LIJEVO.svg": "/MyPortfolio/static/media/LIJEVO.0b7bc51a6d4204de880c.svg",
     "index.html": "/MyPortfolio/index.html",
-    "main.0e3dfe68.css.map": "/MyPortfolio/static/css/main.0e3dfe68.css.map",
-    "main.9c8df846.js.map": "/MyPortfolio/static/js/main.9c8df846.js.map"
+    "main.0016a2e5.css.map": "/MyPortfolio/static/css/main.0016a2e5.css.map",
+    "main.2ac62155.js.map": "/MyPortfolio/static/js/main.2ac62155.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e3dfe68.css",
-    "static/js/main.9c8df846.js"
+    "static/css/main.0016a2e5.css",
+    "static/js/main.2ac62155.js"
   ]
 }
