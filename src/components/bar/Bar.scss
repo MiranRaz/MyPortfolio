@@ -28,10 +28,16 @@
   margin-right: 2rem;
   font-size: 1.5rem;
 
+  .logoIntro {
+    @media (max-width: 674px) {
+      display: none;
+    }
+  }
   @media (max-width: 674px) {
     width: 100%;
     margin: 0;
     border-radius: 0;
+    align-items: center;
   }
 }
 
@@ -40,6 +46,10 @@
   width: 350px;
   justify-content: space-between;
   margin-right: 110px;
+
+  @media (max-width: 674px) {
+    margin-right: 23px;
+  }
 }
 
 .sidebar ul li {
@@ -48,6 +58,7 @@
   width: 110px;
   height: 31px;
   z-index: 2;
+
 }
 
 .sidebar ul li a {

@@ -6,7 +6,7 @@ export default function Bar() {
   return (
     <div className="navBody">
       <div className="sidebar">
-        <div>
+        <div className="logoIntro">
           <a href="#intro">
             <img src={MRLOGO} alt="MR" className="logoMR" />
           </a>
@@ -40,7 +40,6 @@ export default function Bar() {
               </span>
             </a>
           </li>
-          <div className="indicator"></div>
         </ul>
       </div>
     </div>
