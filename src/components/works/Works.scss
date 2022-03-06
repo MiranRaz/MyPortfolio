@@ -5,21 +5,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: visible;
+  h1 {
+    font-size: 70px;
+    color: whitesmoke;
+    margin-top: 90px;
+    overflow: visible;
 
-
-    h1 {
-      font-size: 70px;
-      color: whitesmoke;
-      margin-top: 90px;
-
-      @include mobile {
-        font-size: 50px;
-        margin:10px 0px 0px 0px;
-        overflow: visible;
-      }
+    @include mobile {
+      font-size: 50px;
+      margin: 30px 0px 0px 0px;
+      overflow: visible;
     }
-   
+  }
 
   ul {
     margin: 55px;
@@ -27,11 +24,12 @@
     list-style: none;
     display: flex;
     color: whitesmoke;
+    overflow: visible;
 
-    @media(max-width:1682px) {
+    @media (max-width: 1682px) {
     }
     @include mobile {
-      margin: 10px 0;
+      margin: 20px 0;
       flex-wrap: wrap;
       justify-content: center;
       overflow: visible;
@@ -44,8 +42,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: visible;
 
-    @include mobile{
+    @include mobile {
       width: 100%;
     }
 
@@ -63,14 +62,18 @@
       transition: all 0.5s ease;
       cursor: pointer;
 
-    @include mobile{
-      width: 261px;
-      height: 198px;
-    }
+      @include mobile {
+        width: 261px;
+        height: 198px;
+      }
 
       h3 {
         position: absolute;
         font-size: 69px;
+
+        @include mobile {
+          font-size: 30px;
+        }
       }
 
       img {

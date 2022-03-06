@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .contact {
   //background-color: #a29574;
   background-color: #3b5065;
@@ -10,9 +12,16 @@
     align-items: center;
     justify-content: center;
 
-    h2 {
-      font-size: 69px;
+    h1 {
+      font-size: 70px;
       color: whitesmoke;
+      overflow: visible;
+
+      @include mobile {
+        font-size: 50px;
+        margin: 30px 0px 0px 0px;
+        overflow: visible;
+      }
     }
 
     .page {
@@ -24,17 +33,25 @@
       justify-content: center;
       margin: 0;
 
-
       .pageHolder {
         width: 500px;
-        height: auto;
         color: #d3c7af;
-        p{
+        height: 100%;
+
+        p {
           font-size: 44px;
           font-weight: bold;
+          height: 100%;
+          margin-left: 10px;
+          
+          @include mobile {
+            font-size: 20px;
+            margin: 20px;
+            overflow: visible;
+            flex-wrap: wrap;
+          }
         }
       }
-      
     }
   }
 }
