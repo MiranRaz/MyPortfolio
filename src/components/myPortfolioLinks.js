@@ -6,6 +6,7 @@ import TTT from "../img/TTT.png";
 import BLOCKCHAIN from "../img/BLOCKCHAIN.jpg";
 import GITHUB from "../img/GITHUB.png";
 import LINKEDIN from "../img/LINKEDIN.png";
+import ARULA from "../img/ARULA.png";
 
 export const myWebSites = [
   {
@@ -28,6 +29,11 @@ export const myWebSites = [
     title: "LA CASA",
     img: LACASA,
     link: "https://lacasa20220220114850.azurewebsites.net/",
+  },
+  {
+    id: 5,
+    title: "ARULA",
+    img: ARULA,
   },
 ];
 

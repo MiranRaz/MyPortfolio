@@ -1,4 +1,40 @@
 .contact {
   //background-color: #a29574;
   background-color: #3b5065;
+  display: flex;
+
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 69px;
+      color: whitesmoke;
+    }
+
+    .page {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+
+
+      .pageHolder {
+        width: 500px;
+        height: auto;
+        color: #d3c7af;
+        p{
+          font-size: 44px;
+          font-weight: bold;
+        }
+      }
+      
+    }
+  }
 }

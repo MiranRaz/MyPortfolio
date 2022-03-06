@@ -18,22 +18,22 @@
   }
 
   .contain {
-    width: 100%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
     li {
-      width: 167px;
+      width: 300px;
       height: 167px;
       // border-radius: 100%;
-      margin: 20px 20px;
+      margin: 30px 20px;
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
-ç
+
       h3 {
         position: absolute;
         font-size: 69px;
