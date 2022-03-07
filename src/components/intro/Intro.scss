@@ -18,22 +18,28 @@
     width: 100%;
     float: right;
 
-    .imageContainer {
+    @include mobile {
       width: 100%;
-      height: 80%;
-      margin: 149px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       @include mobile {
         overflow: visible;
       }
 
       img {
-        height: 90%;
-        width: 90%;
+        height: 70%;
+        width: 70%;
         @include mobile {
           width: 60%;
-          margin-left: 80px;
-          margin-top: 100px;
         }
       }
       @include mobile {
@@ -59,7 +65,7 @@
 
       @include mobile {
         align-items: center;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
         overflow: hidden;
       }
     }
