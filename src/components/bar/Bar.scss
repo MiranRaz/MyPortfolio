@@ -4,6 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 674px) {
+    position: fixed;
+    top: calc(100vh - 75px);
+    z-index: 3;
+  }
 }
 
 .logoMR {
