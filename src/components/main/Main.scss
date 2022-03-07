@@ -33,11 +33,11 @@
 
     img {
       height: 30%;
-      width: 30%;
+      width: 20%;
 
       @include mobile {
         height: 30%;
-        width: 47%;
+        width: 55%;
       }
     }
   }

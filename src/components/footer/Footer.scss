@@ -10,7 +10,7 @@
   @include mobile {
     height: 40px;
   }
-  
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -30,6 +30,10 @@
 
     .icon {
       font-size: 37px;
+
+      @include mobile {
+        font-size: 30px;
+      }
     }
   }
 }
