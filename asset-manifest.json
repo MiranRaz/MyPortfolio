@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.f8bbdacc.css",
-    "main.js": "/MyPortfolio/static/js/main.687a267b.js",
+    "main.css": "/MyPortfolio/static/css/main.cb286820.css",
+    "main.js": "/MyPortfolio/static/js/main.b221d00d.js",
     "static/media/MRLOGO.png": "/MyPortfolio/static/media/MRLOGO.91ce92ad0274f0d6ecf7.png",
     "static/media/ARULA.png": "/MyPortfolio/static/media/ARULA.bb7eb3017fe020f09404.png",
     "static/media/NF.png": "/MyPortfolio/static/media/NF.37e926ffd2445f92fc49.png",
     "static/media/GITHUB.png": "/MyPortfolio/static/media/GITHUB.787df2b48f3569ea1684.png",
     "static/media/LINKEDIN.png": "/MyPortfolio/static/media/LINKEDIN.2d2a2bb451e820ddef5f.png",
+    "static/media/LIBERTY.png": "/MyPortfolio/static/media/LIBERTY.778edc39e9f0941fd9be.png",
     "static/media/BLOCKCHAIN.jpg": "/MyPortfolio/static/media/BLOCKCHAIN.a971c30be7b6ca00bc5a.jpg",
     "static/media/TTT.png": "/MyPortfolio/static/media/TTT.31fdf388851fe44ce89d.png",
     "static/media/GIT.png": "/MyPortfolio/static/media/GIT.a9256b073ee60f0fd84f.png",
@@ -19,11 +20,11 @@
     "static/media/BOOTSTRAP.png": "/MyPortfolio/static/media/BOOTSTRAP.d255236361277c28aedf.png",
     "static/media/LIJEVO.svg": "/MyPortfolio/static/media/LIJEVO.0b7bc51a6d4204de880c.svg",
     "index.html": "/MyPortfolio/index.html",
-    "main.f8bbdacc.css.map": "/MyPortfolio/static/css/main.f8bbdacc.css.map",
-    "main.687a267b.js.map": "/MyPortfolio/static/js/main.687a267b.js.map"
+    "main.cb286820.css.map": "/MyPortfolio/static/css/main.cb286820.css.map",
+    "main.b221d00d.js.map": "/MyPortfolio/static/js/main.b221d00d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8bbdacc.css",
-    "static/js/main.687a267b.js"
+    "static/css/main.cb286820.css",
+    "static/js/main.b221d00d.js"
   ]
 }
