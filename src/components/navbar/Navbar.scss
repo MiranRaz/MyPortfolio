@@ -32,6 +32,8 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
 
         span {
           width: 100%;
@@ -39,6 +41,8 @@
           background-color: whitesmoke;
           transform-origin: left;
           transition: all 1.5s ease;
+          margin-left: 2.5px;
+          margin-right: 2.5px;
         }
       }
     }
