@@ -63,8 +63,9 @@
       cursor: pointer;
 
       @include mobile {
-        width: 261px;
-        height: 198px;
+        width: 160px;
+        height: 100px;
+        margin: 5px 10px;
       }
 
       h3 {

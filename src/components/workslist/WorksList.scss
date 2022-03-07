@@ -7,12 +7,11 @@
   cursor: pointer;
   overflow: visible;
 
-  @include mobile{
-    font-size: 17px;
-    margin-right: 10px;
+  @include mobile {
+    font-size: 19.5px;
+    margin-right: 5px;
     padding: 0px;
   }
-  
 
   &:active {
     background-color: whitesmoke;
