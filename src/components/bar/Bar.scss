@@ -27,10 +27,16 @@
   z-index: 3;
   margin-right: 2rem;
   font-size: 1.5rem;
+  overflow: visible;
 
   .logoIntro {
     @media (max-width: 674px) {
       display: none;
+    }
+  }
+  .icon {
+    @media (max-width: 674px) {
+      overflow: visible;
     }
   }
   @media (max-width: 674px) {
@@ -82,6 +88,7 @@
   display: block;
   transition: 0.5s;
   color: whitesmoke;
+  overflow: visible;
 }
 
 .sidebar ul li a .icon :hover {
