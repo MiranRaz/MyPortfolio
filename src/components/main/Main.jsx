@@ -21,8 +21,8 @@ export default function Main() {
           <Route path="/MyPortfolio/" exact element={<HomePage />} />
           <Route path="/MyPortfolio/portfolio" exact element={<Portfolio />} />
         </Routes>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
