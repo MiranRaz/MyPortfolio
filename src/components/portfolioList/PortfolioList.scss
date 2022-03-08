@@ -10,8 +10,8 @@
   font-weight: 600;
 
   @include mobile {
-    font-size: 17px;
-    margin-right: 5px;
+    font-size: 15px;
+    margin-right: 4px;
 
     @media only screen and (max-width: 370px) {
       font-size: 12.5px;
