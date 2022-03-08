@@ -12,7 +12,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         </div>
         <div className="bar">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-            <span className="line1"></span> 
+            <span className="line1"></span>
             <span className="line2"></span>
           </div>
         </div>

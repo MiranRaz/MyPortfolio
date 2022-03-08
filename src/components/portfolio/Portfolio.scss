@@ -55,10 +55,15 @@
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
+
+          @include mobile {
+            width: 100%;
+          }
+
           a {
             .item {
               width: 250px;
-              height: 160px;
+              height: 190px;
               border-radius: 20px;
               margin: 10px 20px;
               display: flex;
@@ -69,9 +74,19 @@
               transition: all 0.5s ease;
               cursor: pointer;
 
+              @include mobile {
+                width: 110px;
+                height: 130px;
+                margin: 5px 10px;
+              }
+
               h3 {
                 position: absolute;
                 font-size: 50px;
+
+                @include mobile {
+                  font-size: 20px;
+                }
               }
 
               img {
