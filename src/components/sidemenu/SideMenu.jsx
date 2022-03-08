@@ -1,14 +1,15 @@
 import "./SideMenu.scss";
+import { Link } from "react-router-dom";
 
 export default function SideMenu({ menuOpen, setMenuOpen }) {
   return (
     <div className={"menu " + (menuOpen && "active")}>
       <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#home">home</a>
+          <Link to="/">home</Link>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#portfolio">portfolio</a>
+          <Link to="/portfolio">portfolio</Link>
         </li>
       </ul>
     </div>

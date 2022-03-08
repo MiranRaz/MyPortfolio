@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Navbar.scss";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
@@ -6,7 +8,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
     <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#home">home</a>
+          <Link to="/">home</Link>
         </div>
         <div className="bar">
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
