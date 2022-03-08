@@ -8,7 +8,7 @@
   height: 60px;
   position: fixed;
   top: calc(100vh - 60px);
-  
+
   @include mobile {
     height: 40px;
   }
@@ -19,22 +19,22 @@
     align-items: center;
     color: white;
     position: fixed;
-  }
 
-  li {
-    margin-right: 10px;
-    margin-left: 10px;
+    li {
+      margin-right: 10px;
+      margin-left: 10px;
 
-    a {
-      text-decoration: none;
-      color: whitesmoke;
-    }
+      a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
 
-    .icon {
-      font-size: 37px;
+      .icon {
+        font-size: 37px;
 
-      @include mobile {
-        font-size: 30px;
+        @include mobile {
+          font-size: 30px;
+        }
       }
     }
   }
