@@ -14,9 +14,9 @@ export default function Main() {
 
   return (
     <div className="mainContainer">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="page">
+        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Routes>
           <Route path="/MyPortfolio/" exact element={<HomePage />} />
           <Route path="/MyPortfolio/portfolio" exact element={<Portfolio />} />
