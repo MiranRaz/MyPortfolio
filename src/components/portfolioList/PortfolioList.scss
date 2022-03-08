@@ -6,7 +6,7 @@
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
-  color: whitesmoke;
+  color: #3b5065;
   font-weight: 600;
 
   @include mobile {
@@ -20,7 +20,7 @@
   }
 
   &.active {
-    background-color: whitesmoke;
-    color: #3b5065;
+    background-color:darkgray;
+    color: white;
   }
 }
