@@ -1,5 +1,5 @@
 .mainContainer {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   position: fixed;
 
   .page {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
