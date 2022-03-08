@@ -1,1 +1,1 @@
-MyPortfolio page is <a href="https://miranraz.github.io/MyPortfolio/">here</a>
+MyPortfolio page is <a href="https://miranraz.github.io/MyPortfolio/" target ="_blank">here</a>
