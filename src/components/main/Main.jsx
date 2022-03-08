@@ -17,8 +17,8 @@ export default function Main() {
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Routes>
-        <Route path="/" exact element={<HomePage />} />
-        <Route path="/portfolio" exact element={<Portfolio />} />
+        <Route path="/MyPortfolio/" exact element={<HomePage />} />
+        <Route path="/MyPortfolio/portfolio" exact element={<Portfolio />} />
       </Routes>
       <Footer />
     </div>
