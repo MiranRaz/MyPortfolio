@@ -1,5 +1,3 @@
-@import "../../global.scss";
-
 .mainContainer {
   height: 100%;
   width: 100%;
@@ -10,40 +8,12 @@
   overflow: hidden;
   position: fixed;
 
-  .mainVideo {
-    // height: 100%;
-    width: 100%;
-
-    video {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      position: fixed;
-      z-index: -1;
-    }
-  }
-
-  .mainImage {
-    height: 100vh;
+  .page {
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.77;
-
-    img {
-      height: 30%;
-      width: 20%;
-
-      @include mobile {
-        height: 30%;
-        width: 55%;
-      }
-    }
-  }
-
-  .footer {
-    width: 100%;
-    margin: 20px 0px;
+    position: fixed;
   }
 }

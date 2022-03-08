@@ -18,9 +18,15 @@
     .left {
       a {
         font-size: 22px;
+        font-weight: 600;
         color: whitesmoke;
         cursor: pointer;
         text-decoration: none;
+
+        img {
+          height: 40px;
+          width: 80px;
+        }
       }
     }
 

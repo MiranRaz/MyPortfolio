@@ -6,7 +6,9 @@
   align-items: center;
   display: flex;
   height: 60px;
-
+  position: fixed;
+  top: calc(100vh - 60px);
+  
   @include mobile {
     height: 40px;
   }
