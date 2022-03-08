@@ -16,10 +16,12 @@ export default function Main() {
     <div className="mainContainer">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Routes>
-        <Route path="/MyPortfolio/" exact element={<HomePage />} />
-        <Route path="/MyPortfolio/portfolio" exact element={<Portfolio />} />
-      </Routes>
+      <div className="page">
+        <Routes>
+          <Route path="/MyPortfolio/" exact element={<HomePage />} />
+          <Route path="/MyPortfolio/portfolio" exact element={<Portfolio />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );
