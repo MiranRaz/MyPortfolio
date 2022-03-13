@@ -41,7 +41,7 @@
         h1 {
           font-size: 60px;
           font-weight: 600;
-          color: darkgray;
+          color: #3b5065;
         }
 
         ul {
@@ -62,7 +62,7 @@
           }
 
           a {
-            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
             .item {
               width: 250px;
@@ -106,7 +106,7 @@
                   opacity: 0.1;
                   z-index: 0;
                 }
-                outline: none; 
+                outline: none;
               }
             }
           }
