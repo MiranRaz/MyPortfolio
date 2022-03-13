@@ -62,6 +62,8 @@
           }
 
           a {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+
             .item {
               width: 250px;
               height: 190px;
@@ -74,7 +76,8 @@
               position: relative;
               transition: all 0.5s ease;
               cursor: pointer;
-
+              outline: none;
+              outline-color: transparent;
               @include mobile {
                 width: 130px;
                 height: 110px;
@@ -84,7 +87,7 @@
               h3 {
                 position: absolute;
                 font-size: 50px;
-                
+
                 @include mobile {
                   font-size: 20px;
                 }
@@ -103,6 +106,7 @@
                   opacity: 0.1;
                   z-index: 0;
                 }
+                outline: none; 
               }
             }
           }

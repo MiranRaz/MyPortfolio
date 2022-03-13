@@ -32,27 +32,27 @@ export const MyWebsites = [
     title: "Macbeth",
     img: MACBETH,
   },
-  {
-    id: 2,
-    title: "Naš Film",
-    img: NF,
-  },
-  {
-    id: 3,
-    title: "Liberty",
-    img: LIBERTY,
-  },
+  // {
+  //   id: 2,
+  //   title: "Naš Film",
+  //   img: NF,
+  // },
+  // {
+  //   id: 3,
+  //   title: "Liberty",
+  //   img: LIBERTY,
+  // },
   {
     id: 4,
     title: "La Casa",
     img: LACASA,
     href: "https://lacasa20220220114850.azurewebsites.net/",
   },
-  {
-    id: 5,
-    title: "Arula",
-    img: ARULA,
-  },
+  // {
+  //   id: 5,
+  //   title: "Arula",
+  //   img: ARULA,
+  // },
 ];
 
 export const MyGames = [

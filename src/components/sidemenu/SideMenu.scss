@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: all 1s linear;
+  transition: all 0.7s linear;
   backdrop-filter: blur(9px);
   &.active {
     right: 0%;
