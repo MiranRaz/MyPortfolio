@@ -1,9 +1,10 @@
 //websites
 import MACBETH from "./img/MACBETH.jpg";
-import NF from "./img/NF.png";
-import LIBERTY from "./img/LIBERTY.png";
-import ARULA from "./img/ARULA.png";
+// import NF from "./img/NF.png";
+// import LIBERTY from "./img/LIBERTY.png";
+// import ARULA from "./img/ARULA.png";
 import LACASA from "./img/LACASA.png";
+import THEBASE from "./img/THEBASE.png";
 
 //games
 import TTT from "./img/TTT.png";
@@ -32,6 +33,12 @@ export const MyWebsites = [
     title: "Macbeth",
     img: MACBETH,
     href: "https://miranraz.github.io/Macbeth/",
+  },
+  {
+    id: 2,
+    title: "theBase",
+    img: THEBASE,
+    href: "https://miranraz.github.io/theBase/",
   },
   // {
   //   id: 2,
